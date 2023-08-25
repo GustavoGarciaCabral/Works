@@ -1,0 +1,35 @@
+#btn{
+padding:20px 55px;
+width:150px;
+color:#020202;
+background: #7C5E99;
+border: 10px solid #7C5E99;
+border-radius: 5px;
+text-align: center;
+cursor:pointer;
+display: block;
+margin-right:auto;
+margin-left:auto;
+font-size: 30px;
+font-family:inherit;
+color:aliceblue;
+position: relative;
+top:400px;
+right:2px;
+}
+
+.btn:hover{
+    background: rgba(131, 99, 247, 0.575);
+    transition:background 1s;
+}
+
+body{
+    text-align:center;
+    font-size: 50px;
+    color:#7C5E99;
+    left: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+

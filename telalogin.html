@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bigas Bank</title>
+        <link href="telalogin.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum=1.0">
+    </head>
+    <body>
+        <div id="tela-login">
+            <h1>Login</h1>
+            <input id="name" type="text" placeholder="Nome">
+            <br> <br>
+            <input id="senha" type="password" placeholder="Senha">
+            <input id="botaologin2" type="button" value="Entrar">
+            <button id="openModalBtn">Registre-se</button>
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close" id="closeModalBtn">&times;</span>
+    <h1 id="reg">Registre-se</h1>
+    <input class="mod" type="text" placeholder="Nome">
+    <input class="mod" type="password" placeholder="Senha">    
+</div>
+<script>
+    var modal = document.getElementById('myModal');
+    var openModalBtn = document.getElementById('openModalBtn');
+    var closeModalBtn = document.getElementById('closeModalBtn');
+
+    openModalBtn.onclick = function() {
+      modal.style.display = 'block';
+    };
+    
+    closeModalBtn.onclick = function() {
+      modal.style.display = 'none';
+    };
+    
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = 'none';
+      }
+    };</script>
+</div>
+        </div>
+        
+        <script>    
+            document.getElementById("botaologin2").addEventListener("click", function() {
+                window.location.href ="file:///C:/Users/gusta/OneDrive/%C3%81rea%20de%20Trabalho/P%C3%A1gs%20de%20treino/.vscode/menubanco.html";
+            });
+        </script>    
+    </body>
+</html>
